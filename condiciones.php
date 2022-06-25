@@ -30,4 +30,24 @@ switch($dia){
 
     default: echo "voy a la universidad";
 }
+echo "<br><br>";
+//Ciclo While
+$n = 1;
+while ($n <= 5) {
+    echo $n;
+    $n++;
+}
+echo "<br><br>";
+
+//Ciclo Do While
+$p = 1;
+do {
+    echo $p;
+    $p++;
+} while ($p <= 5);
+echo "<br><br>";
+//Ciclo For
+for($i = 0; $i <= 5; $i++){
+    echo $i;
+}
 ?>
